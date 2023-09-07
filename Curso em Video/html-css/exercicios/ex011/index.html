@@ -9,15 +9,15 @@
     <h1>31 - Imagens Dinâmicas - @Curso em Vídeo HTML5 e CSS3</h1>
     <hr>
 
-    <h2>Tipos de imagens</h2>
-    <img src="images/300x300.png" alt="Imagem 300px">
-    <p>Imagem 300x300</p>
+    <h3>O site vai carregar a foto em diferentes tamanhos dependendo do tamanho da tela.</h3>
 
-    <img src="images/700x700.png" alt="Imagem 300px">
-    <p>Imagem 700x700</p>
-
-    <img src="images/1080x1080.png" alt="Imagem 300px">
-    <p>Imagem 1080x1080</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/300x300.png" type="image/png">
+        
+        <source media="(max-width: 1150px)" srcset="images/700x700.png" type="image/png">
+        
+        <img src="images/1080X1080.png" alt="Foto G">
+    </picture>
 
 </body>
 </html>
