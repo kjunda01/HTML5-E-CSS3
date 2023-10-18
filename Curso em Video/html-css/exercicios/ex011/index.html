@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Exercicio 011 - Curso em Video</title>
 </head>
 <body>
-    <h1>31 - Imagens Dinâmicas - @Curso em Vídeo HTML5 e CSS3</h1>
+    <h1 class="titulo_principal">31 - Imagens Dinâmicas - @Curso em Vídeo HTML5 e CSS3</h1>
     <hr>
 
-    <h3>O site vai carregar a foto em diferentes tamanhos dependendo do tamanho da tela.</h3>
+    <h3>O site vai carregar a foto em diferentes tamanhos dependendo do tamanho da tela</h3>
 
     <picture>
         <source media="(max-width: 750px)" srcset="images/300x300.png" type="image/png">
@@ -20,9 +21,13 @@
     </picture>
 
     <h2>Reproduzindo Áudios</h2>
-    <p>Vamos aprender a reproduzir áudios em HTML5</p>
-    <audio preload="metadata" controls autoplay
-        src="audios/Lines - Topher Mohr and Alex Elena.mp3"></audio>
-
+    <p>
+        Vamos aprender a reproduzir áudios em HTML5.
+    </p>
+    
+    <audio preload="metadata"
+    controls
+    src="audios/Lines - Topher Mohr and Alex Elena.mp3">
+    </audio>
 </body>
 </html>
