@@ -1,53 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 009 - Um site legal</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Vídeos legais para assistir!</h1>
-        <p id="titulo_cima">Clique nas imagens abaixo para assistir os vídeos.</p>
+        <h1 class="main-title">Vídeos legais para assistir!</h1>
     </header>
-    <div id="container">
-        <a href="/paginas/Video1.html">
-            <picture id="img-container">
-                <source media="(max-width: 370px)" srcset="/imagens/Video1/IGgafqmq7IE-def.jpg">
-                <source media="(max-width: 530px)" srcset="/imagens/Video1/IGgafqmq7IE-MQ.jpg">
-                <source media="(max-width: 690px)" srcset="/imagens/Video1/IGgafqmq7IE-HQ.jpg">
-                <img src="/imagens/Video1/IGgafqmq7IE-SD.jpg" alt="">
-            </picture>
-        </a>
-        <a href="/paginas/Video2.html">
-            <picture id="img-container">
-                <source media="(max-width: 370px)" srcset="/imagens/Video2/bLq5_3-BQlI-def.jpg">
-                <source media="(max-width: 530px)" srcset="/imagens/Video2/bLq5_3-BQlI-MQ.jpg">
-                <source media="(max-width: 690px)" srcset="/imagens/Video2/bLq5_3-BQlI-HQ.jpg">
-                <img src="/imagens/Video2/bLq5_3-BQlI-SD.jpg" alt="">
-            </picture>
-        </a>
-        <a href="/paginas/Video3.html">
-            <picture id="img-container">
-                <source media="(max-width: 370px)" srcset="/imagens/Video3/hipuCy87OSM-def.jpg">
-                <source media="(max-width: 530px)" srcset="/imagens/Video3/hipuCy87OSM-MQ.jpg">
-                <source media="(max-width: 690px)" srcset="/imagens/Video3/hipuCy87OSM-HQ.jpg">
-                <img src="/imagens/Video3/hipuCy87OSM-SD.jpg" alt="">
-            </picture>
-        </a>
-        <a href="/paginas/Video4.html">
-            <picture id="img-container">
-                <source media="(max-width: 370px)" srcset="/imagens/Video4/LUbeZrAQ8Oc-def.jpg">
-                <source media="(max-width: 530px)" srcset="/imagens/Video4/LUbeZrAQ8Oc-MQ.jpg">
-                <source media="(max-width: 690px)" srcset="/imagens/Video4/LUbeZrAQ8Oc-HQ.jpg">
-                <img src="/imagens/Video4/LUbeZrAQ8Oc-SD.jpg" alt="">
-            </picture>
-        </a>
+    <div class="container">
+        <picture id="img-container">
+            <p>
+                <a href="/paginas/Video1.html"><img id="imagem" src="/imagens/Video1/IGgafqmq7IE-HD.jpg" alt=""></a>
+ 
+                <a href="/paginas/Video2.html"><img id="imagem" src="/imagens/Video2/bLq5_3-BQlI-HD.jpg" alt=""></a>
+ 
+                <a href="/paginas/Video2.html"><img id="imagem" src="/imagens/Video3/hipuCy87OSM-HD.jpg" alt=""></a>
+ 
+                <a href="/paginas/Video2.html"><img id="imagem" src="/imagens/Video4/LUbeZrAQ8Oc-HD.jpg" alt=""></a>
+            </p>
+        </picture>
+        
     </div>
-    
 </body>
 </html>
+
 
 <!--
 
