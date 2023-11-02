@@ -1,6 +1,18 @@
-.main-title{
+body{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
 }
 
+h1{
+    color: rgb(75, 92, 0);
+}
+
+h2{
+    color: rgb(255, 0, 162);
+}
+
+h3{
+    color: rgb(43, 0, 255);
+}
