@@ -4,7 +4,7 @@ body{
   }
   
   
-  .container, .main-title, p, h1, #assista-mais {
+  .container, .main-title, p, h1, .btn-voltar {
     display: flex;
     flex-direction: row;
     align-items: center;
