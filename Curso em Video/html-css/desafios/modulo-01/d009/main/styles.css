@@ -4,7 +4,7 @@ body{
   }
   
   
-  .container, .main-title, p, h1, .btn-voltar {
+  p, h1, .container, .main-title, .btn-voltar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,16 +12,11 @@ body{
     flex-wrap: wrap;
   }
   
-  h1{
+  h1, .assista-mais{
     font: italic 25px 'Comic Sans MS', sans-serif;
     color: rgb(2, 31, 56);
   }
   
-  .assista-mais{
-    font: italic 15px 'Comic Sans MS', sans-serif;
-    color: rgb(2, 31, 56);
-  }
-
   #img-container {
     width: 60%;
   }
