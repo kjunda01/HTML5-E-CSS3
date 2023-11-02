@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(0, 51, 51);
+    background-color: rgba(0, 51, 51, 0.5);
     border-radius: 0.4rem;
   }
   
   
-  .container, .main-title, iframe{
+  .container, .main-title, p, h1, #assista-mais {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,17 +13,22 @@ body{
   }
   
   h1{
-    font: italic 35px 'Comic Sans MS', sans-serif;
-    color: aliceblue;
+    font: italic 25px 'Comic Sans MS', sans-serif;
+    color: rgb(2, 31, 56);
   }
   
+  .assista-mais{
+    font: italic 15px 'Comic Sans MS', sans-serif;
+    color: rgb(2, 31, 56);
+  }
+
   #img-container {
     width: 60%;
   }
   
   #imagem {
     width: 47%;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(2, 31, 56);
     border-radius: 0.4rem;
   }
   
